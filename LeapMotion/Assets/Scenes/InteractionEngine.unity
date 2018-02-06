@@ -334,6 +334,7 @@ GameObject:
   - component: {fileID: 555487812}
   - component: {fileID: 555487816}
   - component: {fileID: 555487817}
+  - component: {fileID: 555487818}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -452,6 +453,23 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &555487818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 555487811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a8e0a55fa4e0f499f207335db256d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useHover: 1
+  usePrimaryHover: 1
+  defaultColor: {r: 1, g: 0, b: 0, a: 1}
+  hoverColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  primaryHoverColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  smoothColor: 5
 --- !u!1001 &632042437
 Prefab:
   m_ObjectHideFlags: 0
@@ -537,6 +555,7 @@ GameObject:
   - component: {fileID: 943195494}
   - component: {fileID: 943195498}
   - component: {fileID: 943195499}
+  - component: {fileID: 943195500}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -655,6 +674,23 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &943195500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 943195493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a8e0a55fa4e0f499f207335db256d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useHover: 1
+  usePrimaryHover: 1
+  defaultColor: {r: 0, g: 0, b: 1, a: 1}
+  hoverColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  primaryHoverColor: {r: 1, g: 0, b: 0, a: 1}
+  smoothColor: 5
 --- !u!1 &1054254710
 GameObject:
   m_ObjectHideFlags: 0
